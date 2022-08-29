@@ -99,7 +99,6 @@ class SimOpt(object):
             for i in range(100):
                 env_source.set_random_parameters(phi)
                 model.learn(total_timesteps=10000)
-            #model.save("model.mdl")
             env_source.close()
 
             #Collect 1 rollout in real word
