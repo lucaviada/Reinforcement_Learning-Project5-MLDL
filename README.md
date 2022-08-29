@@ -29,16 +29,6 @@ In order to face the reality gap, due mainly to the difficulty to model paramete
       Install MuJoCo and the python mujoco interface following the instructions here: https://github.com/openai/mujoco-py
       Install gym: pip install gym
       
-   ### 2. Colab Version
-
-    Use https://colab.research.google.com/ to run your experiments.
-
-    Download the files contained in the colab_template folder
-    Load the .ipynb files on https://colab.research.google.com/ and follow the instructions on each script to run the experiments
-
-    Drawback: 
-    * not possible to render the simulator on Colab and see it action
- 
 
 ## SimOpt algorithm
     main.py file contains the code needed to launch several iterations of the SimOpt algorithm, to get the optimal distribution found and to use it to train an agent in the source target and test its performances on the target environment.
