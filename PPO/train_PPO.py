@@ -23,9 +23,9 @@ if args.env=='target':
     env = gym.make('CustomHopper-target-v0')
 
 
-model = TRPO("MlpPolicy", env, verbose = 1, device = args.device)
+model = PPO("MlpPolicy", env, verbose = 1, device = args.device)
 
-model.learn(total_timesteps=1000000, log_interval=4)
+model.learn(total_timesteps=1000000)
 if args.env=='source':
     model_name = 'modelPPO_source.zip'
 if args.env=='target':
