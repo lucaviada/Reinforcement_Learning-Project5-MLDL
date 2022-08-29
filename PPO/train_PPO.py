@@ -5,7 +5,7 @@ import gym
 import argparse
 
 from env.custom_hopper import *
-from sb3_contrib import TRPO
+from stable_baselines3 import PPO
 from stable_baselines3.ppo.policies import MlpPolicy
 
 def parse_args():
