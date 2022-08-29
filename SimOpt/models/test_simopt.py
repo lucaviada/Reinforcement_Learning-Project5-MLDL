@@ -3,7 +3,7 @@ import argparse
 import torch
 import torch.nn
 import gym
-from env.custom_hopper import *
+from SimOpt.env.custom_hopper import *
 from stable_baselines3 import PPO
 from stable_baselines3.ppo.policies import MlpPolicy
 from sb3_contrib import TRPO
