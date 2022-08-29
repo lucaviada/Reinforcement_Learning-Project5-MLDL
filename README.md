@@ -22,7 +22,7 @@ In order to face the reality gap, due mainly to the difficulty to model paramete
 # Getting Started
 ## Dependencies
 
-   ### 1. Local Version
+   ### Local Version
 
       Install dependencies:
 
