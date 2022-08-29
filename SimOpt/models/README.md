@@ -1,7 +1,7 @@
 # Models
-Model files to test an RL agent by means of test_simopt.py.
+  Model files to test an RL agent by means of test_simopt.py.
 
-Each model has been developed with a specific configuration described in our paper.
+  Each model has been developed with a specific configuration described in our paper.
 
   model1: phi initial values: [4.5 1 2.8 1 4.5 1], T_first: max.
   model2: phi initial values: [4.5 1 2.8 1 4.5 1], T_first: min.
