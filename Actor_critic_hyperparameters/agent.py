@@ -102,7 +102,7 @@ class Agent(object):
         
         G_det = G.detach()
         critic_loss_fn = torch.nn.HuberLoss()
-        critic_loss = loss_fn(state_values, G_det) # critic loss function
+        critic_loss = critic_loss_fn(state_values, G_det) # critic loss function
         
         ac_loss = actor_loss + critic_loss
 
