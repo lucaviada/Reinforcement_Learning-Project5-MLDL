@@ -35,7 +35,7 @@ In order to face the reality gap, due mainly to the difficulty to model paramete
     
     
     To launch it:
-    python3 main.py --device <device> --training_algorithm <training_algorithm> --initialPhi <initialPhi> --normalize --logspace --budget <budget> --n_iterations <n_iterations> --T_first <T_first> ----algorithm_parameters_filePath <filePath> --episodes <episodes> --render
+    python3 main.py --device <device> --training_algorithm <training_algorithm> --initialPhi <initialPhi> --normalize --logspace --budget <budget> --n_iterations <n_iterations> --T_first <T_first> --algorithm_parameters_filePath <filePath> --episodes <episodes> --render
     Possible arguments.
     <device>: device [cpu, cuda], default='cpu'
     <training_algorithm>: training algorithm [PPO, TRPO], default='PPO'
