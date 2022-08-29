@@ -1,1 +1,1 @@
-model files to test an RL agent by means og test_simopt.py
+model files to test an RL agent by means of test_simopt.py
