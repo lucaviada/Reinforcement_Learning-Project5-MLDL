@@ -60,7 +60,6 @@ class Policy(torch.nn.Module):
         """
             Critic
         """
-        # TODO 2.2.b: forward in the critic network
 
         x_critic = self.tanh(self.fc1_critic(x))
         x_critic = self.tanh(self.fc2_critic(x_critic))
