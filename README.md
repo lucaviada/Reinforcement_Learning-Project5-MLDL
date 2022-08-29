@@ -1,6 +1,6 @@
 # Sim-to-Real transfer of Reinforcement Learning policies in robotics - Project5_MLDL
 
-This repository contains the implementation of the concepts described in our work: "titolo paper" for the Machine Learning and Deep Learning course project on Reinforcement Learning in the context of robotic systems.
+This repository contains the implementation of the concepts described in our work: "Reinforcement Learning and Sim-to-Real Transfer" for the Machine Learning and Deep Learning course project on Reinforcement Learning in the context of robotic systems.
  
 # Description
 <img align = "right" src="hopper.png" width="300" height="300">
