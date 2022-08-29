@@ -1,4 +1,3 @@
-
 import torch
 import gym
 import argparse
@@ -21,7 +20,6 @@ def main():
 	model.learn(total_timesteps=1000000)
 		
 
-	#print('finito')
 	model.save('model_trpo_fixed.zip')
 	
 
